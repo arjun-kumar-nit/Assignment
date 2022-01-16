@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hollydays-Lists</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 id="head">Get List of Holiydays.....</h1>
+
+    <div class="header">
+        <div class="resion"><label>Select Resion:<select id="inde">
+              <option >england-and-wales</option>
+              <option selected>northern-ireland</option>
+              <option>scotland</option>
+
+
+          </select></label></div>
+        <div id="latest"><button id="yestarday">Yestarday</button><button id="lastweek">Last Week</button><button id="lastmonth">Last Month</button></div>
+        <div id="or">OR</div>
+        <label>Start Date:<input id="fromdate" type="date"></input></label>
+        <label>To Date:<input id="todate" type="date"></input></label><br>
+        <div id="fth"><button id="btn">Fetch Details</button></div>
+    </div>
+    <hr width="100%" id="line">
+    <div class="data">
+        <p id="empty"></p>
+        <table>
+            <thead class="tabh">
+                <tr>
+                    <th>Tittle</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody class="tabb" id="input">
+
+
+            </tbody>
+        </table>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
