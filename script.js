@@ -85,7 +85,7 @@ yestarday.addEventListener("click", () => {
 
 
             console.log(res);
-
+                  var MyDate = new Date();
             MyDate.setDate(MyDate.getDate() - 1);
 
             var yestardayDate1 = MyDate.getFullYear() + '-' + ('0' + (MyDate.getMonth() + 1))
